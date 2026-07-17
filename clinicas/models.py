@@ -1,7 +1,6 @@
 from django.db import models
 from profissionais.models import Profissional
 
-# Create your models here.
 class Clinica(models.Model):
     nome = models.CharField(max_length=150)
     endereco = models.CharField(max_length=255)
